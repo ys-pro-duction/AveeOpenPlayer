@@ -1,0 +1,10 @@
+package com.daaw;
+
+import android.media.MediaCodecInfo;
+
+/* JADX INFO: loaded from: classes3.dex */
+public abstract /* synthetic */ class Do3 {
+    public static /* synthetic */ MediaCodecInfo.VideoCapabilities.PerformancePoint a(int i, int i2, int i3) {
+        return new MediaCodecInfo.VideoCapabilities.PerformancePoint(i, i2, i3);
+    }
+}

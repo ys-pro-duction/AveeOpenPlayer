@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="albums_count">
+        <item quantity="one">%d альбом</item>
+        <item quantity="other">%d альбомов</item>
+    </plurals>
+    <plurals name="audio_bass_x">
+        <item quantity="other">Бас %d</item>
+    </plurals>
+    <plurals name="audio_stereo_balance_x">
+        <item quantity="other">%d%%</item>
+    </plurals>
+    <plurals name="audio_treble_x">
+        <item quantity="other">ВЧ %d</item>
+    </plurals>
+    <plurals name="audio_volume_x">
+        <item quantity="other">%d%%</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+        <item quantity="other">%d нового уведомления</item>
+    </plurals>
+    <plurals name="playback_crossFade_x_sec">
+        <item quantity="other">%.1f сек</item>
+    </plurals>
+    <plurals name="showing_x_of_y_items3_item_count">
+        <item quantity="one">%d элемент</item>
+        <item quantity="other">%d элементов</item>
+    </plurals>
+    <plurals name="store_subscription_interval_m">
+        <item quantity="one">Ежемесячно</item>
+        <item quantity="other">%d Mесяцев</item>
+    </plurals>
+    <plurals name="store_subscription_interval_unknown">
+        <item quantity="one">%d%s</item>
+        <item quantity="other">%d%s</item>
+    </plurals>
+    <plurals name="store_subscription_interval_y">
+        <item quantity="one">Ежегодно</item>
+        <item quantity="other">%d Лет</item>
+    </plurals>
+    <plurals name="vis_customization_composition_x">
+        <item quantity="other">Kомпозиция %d</item>
+    </plurals>
+    <plurals name="vis_progress_x">
+        <item quantity="other">%.1f%%</item>
+    </plurals>
+    <plurals name="x_items_about_to_added">
+        <item quantity="one">%d элемент будет добавлен</item>
+        <item quantity="other">%d элементов будут добавлены</item>
+    </plurals>
+    <plurals name="x_items_added_to_playlist">
+        <item quantity="one">%d элемент добавлен в плейлист</item>
+        <item quantity="other">%d элементов добавлено в плейлист</item>
+    </plurals>
+    <plurals name="x_items_added_to_queue">
+        <item quantity="one">%d элемент добавлен в очередь</item>
+        <item quantity="other">%d элементов добавлено в очередь</item>
+    </plurals>
+    <plurals name="x_items_found_playlist_scan">
+        <item quantity="one">Найден %d новый плейлист</item>
+        <item quantity="other">Найдено %d новых плейлистов</item>
+    </plurals>
+    <plurals name="x_items_opened_in_queue">
+        <item quantity="one">%d элемент открыт в очереди</item>
+        <item quantity="other">%d элементов открыто в очереди</item>
+    </plurals>
+    <plurals name="x_items_removed_from_queue">
+        <item quantity="one">%d элемент удален из очереди</item>
+        <item quantity="other">%d элементов удалено из очереди</item>
+    </plurals>
+    <plurals name="x_items_saved_in_playlist">
+        <item quantity="one">%d элемент сохранен в плейлисте</item>
+        <item quantity="other">%d элементов сохранено в плейлисте</item>
+    </plurals>
+    <plurals name="x_items_shuffled">
+        <item quantity="one">%d элемент перемешан</item>
+        <item quantity="other">%d элементов перемешано</item>
+    </plurals>
+</resources>

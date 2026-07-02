@@ -1,0 +1,52 @@
+package com.daaw;
+
+/* JADX INFO: loaded from: classes3.dex */
+public abstract class YC0 {
+    public static int A = 2131165767;
+    public static int B = 2131165815;
+    public static int C = 2131165816;
+    public static int D = 2131165818;
+    public static int E = 2131165822;
+    public static int F = 2131165823;
+    public static int G = 2131165824;
+    public static int H = 2131165836;
+    public static int I = 2131165837;
+    public static int J = 2131165838;
+    public static int K = 2131165839;
+    public static int L = 2131165840;
+    public static int M = 2131165862;
+    public static int N = 2131165864;
+    public static int O = 2131165893;
+    public static int P = 2131165927;
+    public static int Q = 2131165939;
+    public static int R = 2131165951;
+    public static int S = 2131165952;
+    public static int T = 2131165953;
+    public static int U = 2131165954;
+    public static int a = 2131165309;
+    public static int b = 2131165324;
+    public static int c = 2131165330;
+    public static int d = 2131165339;
+    public static int e = 2131165340;
+    public static int f = 2131165346;
+    public static int g = 2131165437;
+    public static int h = 2131165439;
+    public static int i = 2131165441;
+    public static int j = 2131165442;
+    public static int k = 2131165529;
+    public static int l = 2131165737;
+    public static int m = 2131165738;
+    public static int n = 2131165739;
+    public static int o = 2131165745;
+    public static int p = 2131165753;
+    public static int q = 2131165754;
+    public static int r = 2131165755;
+    public static int s = 2131165756;
+    public static int t = 2131165757;
+    public static int u = 2131165758;
+    public static int v = 2131165759;
+    public static int w = 2131165760;
+    public static int x = 2131165761;
+    public static int y = 2131165762;
+    public static int z = 2131165766;
+}

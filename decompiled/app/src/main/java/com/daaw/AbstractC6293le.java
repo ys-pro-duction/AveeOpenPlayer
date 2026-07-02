@@ -1,0 +1,21 @@
+package com.daaw;
+
+import android.util.Base64;
+
+/* JADX INFO: renamed from: com.daaw.le, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class AbstractC6293le {
+    public static String a(byte[] bArr) {
+        if (bArr == null) {
+            return null;
+        }
+        return Base64.encodeToString(bArr, 0);
+    }
+
+    public static String b(byte[] bArr) {
+        if (bArr == null) {
+            return null;
+        }
+        return Base64.encodeToString(bArr, 11);
+    }
+}

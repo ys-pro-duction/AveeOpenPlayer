@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white_alpha_1"
+    android:layout_width="match_parent"
+    android:layout_height="@android:dimen/notification_large_icon_width">
+    <include layout="@layout/notification_bar_common"/>
+</RelativeLayout>

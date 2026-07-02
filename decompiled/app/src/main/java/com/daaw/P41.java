@@ -1,0 +1,52 @@
+package com.daaw;
+
+import android.os.Trace;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class P41 {
+    public static long a;
+    public static Method b;
+
+    public static void a(String str) {
+        R41.a(str);
+    }
+
+    public static void b() {
+        R41.b();
+    }
+
+    public static void c(String str, Exception exc) {
+        if (exc instanceof InvocationTargetException) {
+            Throwable cause = exc.getCause();
+            if (!(cause instanceof RuntimeException)) {
+                throw new RuntimeException(cause);
+            }
+            throw ((RuntimeException) cause);
+        }
+    }
+
+    public static boolean d() {
+        try {
+            if (b == null) {
+                return Trace.isEnabled();
+            }
+        } catch (NoClassDefFoundError | NoSuchMethodError unused) {
+        }
+        return e();
+    }
+
+    public static boolean e() {
+        try {
+            if (b == null) {
+                a = Trace.class.getField("TRACE_TAG_APP").getLong(null);
+                b = Trace.class.getMethod("isTagEnabled", Long.TYPE);
+            }
+            return ((Boolean) b.invoke(null, Long.valueOf(a))).booleanValue();
+        } catch (Exception e) {
+            c("isTagEnabled", e);
+            return false;
+        }
+    }
+}

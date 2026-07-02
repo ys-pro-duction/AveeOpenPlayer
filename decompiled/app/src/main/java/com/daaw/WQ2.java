@@ -1,0 +1,25 @@
+package com.daaw;
+
+import java.io.OutputStream;
+
+/* JADX INFO: loaded from: classes3.dex */
+public final class WQ2 extends OutputStream {
+    public final String toString() {
+        return "ByteStreams.nullOutputStream()";
+    }
+
+    @Override // java.io.OutputStream
+    public final void write(int i) {
+    }
+
+    @Override // java.io.OutputStream
+    public final void write(byte[] bArr) {
+        bArr.getClass();
+    }
+
+    @Override // java.io.OutputStream
+    public final void write(byte[] bArr, int i, int i2) {
+        bArr.getClass();
+        AbstractC5381iO2.h(i, i2 + i, bArr.length);
+    }
+}

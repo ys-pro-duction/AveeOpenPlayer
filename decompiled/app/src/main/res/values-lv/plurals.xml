@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="albums_count">
+        <item quantity="one">%d albums</item>
+        <item quantity="other">%d albumi</item>
+    </plurals>
+    <plurals name="audio_bass_x">
+        <item quantity="other">Bass %d</item>
+    </plurals>
+    <plurals name="audio_stereo_balance_x">
+        <item quantity="other">%d%%</item>
+    </plurals>
+    <plurals name="audio_treble_x">
+        <item quantity="other">Augšas %d</item>
+    </plurals>
+    <plurals name="audio_volume_x">
+        <item quantity="other">%d%%</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d jaunu paziņojumu</item>
+        <item quantity="one">%d jauns paziņojums</item>
+        <item quantity="other">%d jauni paziņojumi</item>
+    </plurals>
+    <plurals name="playback_crossFade_x_sec">
+        <item quantity="other">%.1f sek</item>
+    </plurals>
+    <plurals name="showing_x_of_y_items3_item_count">
+        <item quantity="one">%d elements</item>
+        <item quantity="other">%d elementi</item>
+    </plurals>
+    <plurals name="store_subscription_interval_m">
+        <item quantity="one">Ikmēneša</item>
+        <item quantity="other">%d Mēneši</item>
+    </plurals>
+    <plurals name="store_subscription_interval_unknown">
+        <item quantity="one">%d%s</item>
+        <item quantity="other">%d%s</item>
+    </plurals>
+    <plurals name="store_subscription_interval_y">
+        <item quantity="one">Ik gadu</item>
+        <item quantity="other">%d Gadi</item>
+    </plurals>
+    <plurals name="vis_customization_composition_x">
+        <item quantity="other">Kompozīcija %d</item>
+    </plurals>
+    <plurals name="vis_progress_x">
+        <item quantity="other">%.1f%%</item>
+    </plurals>
+    <plurals name="x_items_about_to_added">
+        <item quantity="one">%d elements tiks pievienots</item>
+        <item quantity="other">%d elementi tiks pievienoti</item>
+    </plurals>
+    <plurals name="x_items_added_to_playlist">
+        <item quantity="one">%d elements pievienots atskaņošanas sarakstam</item>
+        <item quantity="other">%d elementi pievienoti atskaņošanas sarakstam</item>
+    </plurals>
+    <plurals name="x_items_added_to_queue">
+        <item quantity="one">%d elements pievienots rindai</item>
+        <item quantity="other">%d elementi pievienoti rindai</item>
+    </plurals>
+    <plurals name="x_items_found_playlist_scan">
+        <item quantity="one">Atrasts %d jauns atskaņošanas saraksts</item>
+        <item quantity="other">Atrasti %d jauni atskaņošanas saraksti</item>
+    </plurals>
+    <plurals name="x_items_opened_in_queue">
+        <item quantity="one">%d elements atvērts rindā</item>
+        <item quantity="other">%d elementi atvērti rindā</item>
+    </plurals>
+    <plurals name="x_items_removed_from_queue">
+        <item quantity="one">%d elements noņemts no rindas</item>
+        <item quantity="other">%d elementi noņemti no rindas</item>
+    </plurals>
+    <plurals name="x_items_saved_in_playlist">
+        <item quantity="one">%d elements saglabāts atskaņošanas sarakstā</item>
+        <item quantity="other">%d elementi saglabāti atskaņošanas sarakstā</item>
+    </plurals>
+    <plurals name="x_items_shuffled">
+        <item quantity="one">%d elements ir sajaukts</item>
+        <item quantity="other">%d elementi ir sajaukti</item>
+    </plurals>
+</resources>
