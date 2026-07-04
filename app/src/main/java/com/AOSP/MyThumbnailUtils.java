@@ -58,7 +58,10 @@ public class MyThumbnailUtils {
         } finally {
             try {
                 retriever.release();
+            } catch (java.io.IOException ex) {
             } catch (RuntimeException ex) {
+                // Ignore failures while cleaning up.
+            } catch (Exception ex) {
                 // Ignore failures while cleaning up.
             }
         }

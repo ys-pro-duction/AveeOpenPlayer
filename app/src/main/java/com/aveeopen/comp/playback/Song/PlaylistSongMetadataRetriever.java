@@ -105,7 +105,7 @@ public class PlaylistSongMetadataRetriever {
         if (_data.albumArtist == null) _data.albumArtist = "";
         if (_data.composer == null) _data.composer = "";
 
-        metadataRetriever.release();
+        try { metadataRetriever.release(); } catch (java.io.IOException e) {} catch (Exception e) {}
 
         return _data;
     }

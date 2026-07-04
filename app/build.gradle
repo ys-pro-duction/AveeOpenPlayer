@@ -1,15 +1,16 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace "com.aveeopen"
 
-    compileSdkVersion 28
+    compileSdkVersion 34
     buildToolsVersion "28.0.3"
 
     defaultConfig {
         //Be sure to use correct applicationId in PUBLISH VERSION
         applicationId "com.aveeopen" //Set applicationId to your package name //APP RESKIN
         minSdkVersion 16
-        targetSdkVersion 28
+        targetSdkVersion 34
         multiDexEnabled true
 
         versionCode 34 //Set desired version (Optional) //APP RESKIN

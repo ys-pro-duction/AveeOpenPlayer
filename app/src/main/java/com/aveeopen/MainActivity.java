@@ -491,49 +491,51 @@ public class MainActivity extends Activity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         switch (id) {
-            case R.id.home:
+            default:
+                if (id == android.R.id.home) {
                 break;
 
-            case R.id.menu_close:
+                } else if (id == R.id.menu_close) {
                 doExit();
                 return true;
 
-            case R.id.menu_settings:
+                } else if (id == R.id.menu_settings) {
                 Intent intent = new Intent(this, SettingsActivity.class);
                 startActivity(intent);
                 return true;
 
-            case R.id.menu_sleep_timer:
+                } else if (id == R.id.menu_sleep_timer) {
                 onMainUIAction.invoke(1, new ContextData(this));
                 return true;
 
-            case R.id.menu_equalizer:
+                } else if (id == R.id.menu_equalizer) {
                 onMainUIAction.invoke(3, new ContextData(this));
                 return true;
 
-            case R.id.action_bar_sleep_timer_indicator:
+                } else if (id == R.id.action_bar_sleep_timer_indicator) {
                 onMainUIAction.invoke(1, new ContextData(this));
                 return true;
 
-            case R.id.menu_lock_orient:
+                } else if (id == R.id.menu_lock_orient) {
                 onMainUIAction.invoke(2, new ContextData(this));
                 break;
 
-            case R.id.action_bar_lock_orient_indicator:
+                } else if (id == R.id.action_bar_lock_orient_indicator) {
                 onMainUIAction.invoke(2, new ContextData(this));
                 break;
-            case R.id.menu_lib:
+                } else if (id == R.id.menu_lib) {
                 viewPager.setCurrentItem(0);
                 return true;
 
-            case R.id.menu_queue:
+                } else if (id == R.id.menu_queue) {
                 viewPager.setCurrentItem(1);
                 return true;
 
-            case R.id.menu_visual:
+                } else if (id == R.id.menu_visual) {
                 viewPager.setCurrentItem(2);
                 return true;
         }
+                }
         return super.onOptionsItemSelected(item);
     }
 
