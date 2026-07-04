@@ -1,65 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="0dp"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_alignParentTop="true"
-    android:layout_centerHorizontal="true"
-    android:padding="0dp">
-
+    android:layout_centerHorizontal="true">
     <RelativeLayout
-        android:id="@+id/groupLeft"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:paddingBottom="10dp"
-        android:paddingLeft="0dp"
-        android:paddingRight="10dp"
-        android:paddingTop="10dp">
-
-        <ImageButton
-            android:id="@+id/btnToggle"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="0dp"
-            android:layout_marginTop="0dp"
-            android:background="?android:attr/selectableItemBackground"
-            android:src="@drawable/ic_timer3_l"
-            android:tint="@color/text_color_m1" />
-
-        <TextView
-            android:id="@+id/txtStatus"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/btnToggle"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="0dp"
-            android:gravity="center_horizontal"
-            android:singleLine="false"
-            android:text="@string/dialog_timer_off"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
-    </RelativeLayout>
-
-    <RelativeLayout
+        android:id="@+id/group0"
+        android:padding="0dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@id/groupLeft"
-        android:padding="0dp">
-
-        <NumberPicker
+        android:layout_centerHorizontal="true">
+        <com.shawnlin.numberpicker.NumberPicker
             android:id="@+id/numberPickerH"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <NumberPicker
+            android:layout_height="wrap_content"
+            app:np_dividerColor="@color/theme0_app_color"
+            app:np_formatter="%02d"
+            app:np_max="0"
+            app:np_min="23"
+            app:np_selectedTextColor="@color/theme0_app_color"
+            app:np_selectedTextSize="@dimen/textSizeM2"
+            app:np_textColor="@color/text_color_m2"
+            app:np_textSize="@dimen/textSizeM3"
+            app:np_value="0"/>
+        <com.shawnlin.numberpicker.NumberPicker
             android:id="@+id/numberPickerM"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@id/numberPickerH" />
-
+            android:layout_toRightOf="@+id/numberPickerH"
+            app:np_dividerColor="@color/theme0_app_color"
+            app:np_formatter="%02d"
+            app:np_max="59"
+            app:np_min="0"
+            app:np_selectedTextColor="@color/theme0_app_color"
+            app:np_selectedTextSize="@dimen/textSizeM2"
+            app:np_textColor="@color/text_color_m2"
+            app:np_textSize="@dimen/textSizeM3"
+            app:np_value="3"/>
     </RelativeLayout>
-
+    <RelativeLayout
+        android:id="@+id/groupLeft"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/group0">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/textSizeM1"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:text="@string/dialog_timer_off"
+            android:singleLine="false"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
 </RelativeLayout>
-

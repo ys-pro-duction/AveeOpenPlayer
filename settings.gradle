@@ -1,1 +1,3 @@
-include ':app', ':ColorMixer'
+rootProject.name = 'Avee Player'
+
+include 'app'

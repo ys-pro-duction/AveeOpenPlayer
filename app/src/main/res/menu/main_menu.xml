@@ -1,76 +1,27 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_bar_search"
-        android:actionViewClass="android.widget.SearchView"
         android:icon="@drawable/ic_search_2_s"
-        android:showAsAction="always"
-        android:title="@string/menu_search" />
-
+        android:id="@+id/action_bar_search"
+        android:title="@string/menu_search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"/>
     <item
-        android:id="@+id/action_bar_sleep_timer_indicator"
-        android:icon="@drawable/ic_timer3"
-        android:showAsAction="always"
-        android:title="Sleep timer" />
-
+        android:icon="@drawable/ic_grid9_2_unique1"
+        android:id="@+id/action_bar_viz_btn0"
+        android:visible="false"
+        android:title="@string/menu_viz_chooser"
+        app:showAsAction="always"/>
     <item
-        android:id="@+id/action_bar_lock_orient_indicator"
-        android:icon="@drawable/ic_lock_rot3"
-        android:showAsAction="always"
-        android:title="Lock orientation" />
-
+        android:icon="@drawable/ic_pencil_unique1"
+        android:id="@+id/action_bar_viz_btn1"
+        android:visible="false"
+        android:title="@string/menu_viz_customize"
+        app:showAsAction="always"/>
     <item
-        android:id="@+id/empty"
-        android:icon="@drawable/ic_overflow_round_v2"
-        android:orderInCategory="101"
-        android:showAsAction="always"
-        android:title="menu">
-        <menu>
-            <item
-                android:id="@+id/menu_lib"
-                android:icon="@drawable/ic_library_2_s"
-                android:showAsAction="never"
-                android:title="Library" />
-
-            <item
-                android:id="@+id/menu_queue"
-                android:icon="@drawable/ic_playlist4"
-                android:showAsAction="never"
-                android:title="Queue" />
-
-            <item
-                android:id="@+id/menu_visual"
-                android:icon="@drawable/ic_visual2"
-                android:showAsAction="never"
-                android:title="Visualizer" />
-
-            <item
-                android:id="@+id/menu_sleep_timer"
-                android:icon="@drawable/ic_timer3"
-                android:showAsAction="always"
-                android:title="Sleep timer" />
-            <item
-                android:id="@+id/menu_equalizer"
-                android:icon="@drawable/ic_eq"
-                android:showAsAction="always"
-                android:title="@string/audio_equalizer" />
-
-            <item
-                android:id="@+id/menu_lock_orient"
-                android:icon="@drawable/ic_lock_rot3"
-                android:showAsAction="always"
-                android:title="Lock orientation" />
-
-            <item
-                android:id="@+id/menu_settings"
-                android:icon="@drawable/ic_settings"
-                android:showAsAction="never"
-                android:title="@string/menu_settings" />
-
-            <item
-                android:id="@+id/menu_close"
-                android:icon="@drawable/ic_close"
-                android:showAsAction="never"
-                android:title="@string/menu_close" />
-        </menu>
-    </item>
+        android:icon="@drawable/ic_save3_unique1"
+        android:id="@+id/action_bar_viz_btn5"
+        android:visible="false"
+        android:title="@string/menu_viz_export_video"
+        app:showAsAction="always"/>
 </menu>
