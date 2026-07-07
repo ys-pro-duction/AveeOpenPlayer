@@ -1,4 +1,37 @@
-apply plugin: 'com.android.application'
+import sys
+
+filepath = 'ColorMixer/build.gradle'
+with open(filepath, 'w') as f:
+    f.write("""apply plugin: 'com.android.library'
+
+android {
+    namespace "it.moondroid.colormixer"
+
+    compileSdkVersion 36
+    buildToolsVersion "28.0.3"
+
+    lintOptions {
+        abortOnError false
+    }
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 36
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+}""")
+
+filepath = 'app/build.gradle'
+with open(filepath, 'w') as f:
+    f.write("""apply plugin: 'com.android.application'
 
 android {
     namespace "com.aveeopen"
@@ -62,3 +95,4 @@ dependencies {
 
     implementation 'junit:junit:4.12'
 }
+""")

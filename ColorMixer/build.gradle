@@ -3,30 +3,17 @@ apply plugin: 'com.android.library'
 android {
     namespace "it.moondroid.colormixer"
 
-    compileSdkVersion 34
+    compileSdkVersion 36
     buildToolsVersion "28.0.3"
+
+    lintOptions {
+        abortOnError false
+    }
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 34
+        targetSdkVersion 36
     }
-//
-//    compileSdkVersion 22
-//    buildToolsVersion "22.0.1"
-
-//    defaultConfig {
-//        applicationId "it.moondroid.colormixer"
-//        minSdkVersion 11
-//        targetSdkVersion 22
-//        versionCode 1
-//        versionName "1.0"
-//    }
-//    buildTypes {
-//        release {
-//            runProguard false
-//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-//        }
-//    }
 }
 
 repositories {

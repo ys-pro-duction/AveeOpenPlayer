@@ -74,6 +74,20 @@
                 <data android:mimeType="application/x-ogg"/>
                 <data android:mimeType="application/itunes"/>
             </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="file"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="application/octet-stream"/>
+                <data android:pathPattern=".*\.viz"/>
+                <data android:pathPattern=".*\..*\.viz"/>
+                <data android:pathPattern=".*\..*\..*\.viz"/>
+                <data android:pathPattern=".*\..*\..*\..*\.viz"/>
+                <data android:pathPattern=".*\..*\..*\..*\..*\.viz"/>
+                <data android:pathPattern=".*\..*\..*\..*\..*\..*\.viz"/>
+                <data android:pathPattern=".*\..*\..*\..*\..*\..*\..*\.viz"/>
+            </intent-filter>
         </activity>
 
         <activity
